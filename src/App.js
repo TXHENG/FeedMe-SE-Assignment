@@ -64,6 +64,7 @@ function App() {
   const handleRemoveBot = () => {
     // get the last bot
     const removedBot = bots.pop()
+    if(!removedBot) return
 
     // if bot is processing an order, set the order status to PENDING
     if(removedBot.processingOrder) {
