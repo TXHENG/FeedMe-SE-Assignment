@@ -1,0 +1,1 @@
+exports.PROCESSING_TIME = 10
